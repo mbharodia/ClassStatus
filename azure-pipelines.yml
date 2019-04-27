@@ -15,6 +15,5 @@ variables:
 steps:
 - task: Docker@2
   inputs:
-    containerRegistry: '48817e20-0835-4fcc-b8bf-0110d9f0d783v'
-    repository: 'ui'
+    containerRegistry: '48817e20-0835-4fcc-b8bf-0110d9f0d783v'    
     command: 'buildAndPush'
